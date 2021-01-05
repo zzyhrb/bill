@@ -29,6 +29,16 @@ public class SystemController {
         return "system/index/index";
     }
 
+    /**
+     * 后台首页
+     *
+     * @return
+     */
+    @RequestMapping("toDeskManager")
+    public String toDeskManager(){
+        return "system/index/deskManager";
+    }
+
     @RequestMapping("toLogininfoManager")
     public String toLogininfoManager(){
         return "system/loginfo/loginfoManager";
