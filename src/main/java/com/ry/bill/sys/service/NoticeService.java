@@ -1,12 +1,14 @@
 package com.ry.bill.sys.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.ry.bill.sys.domain.Loginfo;
+import com.ry.bill.sys.domain.Notice;
 
 /**
  * @author: zzy
  * @Date: $ $
  * @Description:
  */
-public interface LoginfoService extends IService<Loginfo> {
+public interface NoticeService extends IService<Notice> {
+
+
 }

@@ -1,7 +1,6 @@
 package com.ry.bill.sys.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-
 import com.ry.bill.sys.domain.Loginfo;
 import com.ry.bill.sys.mapper.LogininfoMapper;
 import com.ry.bill.sys.service.LoginfoService;

@@ -38,10 +38,22 @@ public class SystemController {
     public String toDeskManager(){
         return "system/index/deskManager";
     }
-
+    /**
+     * @description: 登录日志
+     * @author zzy
+     * @date 2021/1/6 16:12
+     */
     @RequestMapping("toLogininfoManager")
     public String toLogininfoManager(){
         return "system/loginfo/loginfoManager";
+    }
+    /**
+     * 跳转到公告管理
+     *
+     */
+    @RequestMapping("toNoticeManager")
+    public String toNoticeManager() {
+        return "system/notice/noticeManager";
     }
 
 
