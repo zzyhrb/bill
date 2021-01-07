@@ -62,9 +62,8 @@ public class LoginfoController {
             return ResultObj.DELETE_SUCCESS;
         }catch (Exception e){
             e.printStackTrace();
-            return ResultObj.DISPATCH_ERROR;
+            return ResultObj.DELETE_ERROR;
         }
-
     }
 
     /**

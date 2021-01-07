@@ -164,6 +164,7 @@
                             ids+="&ids="+item.id;
                         }
                     });
+                    alert(ids);
                     $.post("/loginfo/batchDeleteLoginfo",ids,function(res){
                         if(res.code == 200){
                             tableIns.reload();                        }
